@@ -1,0 +1,14 @@
+{
+  "aliveStatusCodes": [200, 403, 429, 0, 202, 406],
+  "ignorePatterns": [
+    { "pattern": "^https://datacite.org" },
+    { "pattern": "^https://bioportal.bioontology.org" },
+    { "pattern": "^https://openmkt.org" },
+    { "pattern": "^https://figshare.com" },
+    { "pattern": "^https://zenodo.org" },
+    { "pattern": "^https://www.ncbi.nlm.nih.gov" },
+    { "pattern": "^https://www.ebi.ac.uk" },
+    { "pattern": "\\[.*\\]\\(#.*\\)" },
+    { "pattern": "^https://midas\\.umich\\.edu" }
+  ]
+}
